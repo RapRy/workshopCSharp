@@ -31,8 +31,6 @@ namespace studentSolutions
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sTUDENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cOURSEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sCOREToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.studentsListToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.studentsListToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +42,8 @@ namespace studentSolutions
             this.manageStudentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cOURSEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sCOREToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,18 +78,6 @@ namespace studentSolutions
             this.sTUDENTToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.sTUDENTToolStripMenuItem.Text = "STUDENT";
             // 
-            // cOURSEToolStripMenuItem
-            // 
-            this.cOURSEToolStripMenuItem.Name = "cOURSEToolStripMenuItem";
-            this.cOURSEToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
-            this.cOURSEToolStripMenuItem.Text = "COURSE";
-            // 
-            // sCOREToolStripMenuItem
-            // 
-            this.sCOREToolStripMenuItem.Name = "sCOREToolStripMenuItem";
-            this.sCOREToolStripMenuItem.Size = new System.Drawing.Size(91, 26);
-            this.sCOREToolStripMenuItem.Text = "SCORE";
-            // 
             // addNewStudentToolStripMenuItem
             // 
             this.addNewStudentToolStripMenuItem.BackColor = System.Drawing.Color.DarkGoldenrod;
@@ -113,6 +101,7 @@ namespace studentSolutions
             this.studentsListToolStripMenuItem1.Name = "studentsListToolStripMenuItem1";
             this.studentsListToolStripMenuItem1.Size = new System.Drawing.Size(277, 26);
             this.studentsListToolStripMenuItem1.Text = "Students List";
+            this.studentsListToolStripMenuItem1.Click += new System.EventHandler(this.studentsListToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -172,6 +161,18 @@ namespace studentSolutions
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.Size = new System.Drawing.Size(277, 26);
             this.printToolStripMenuItem.Text = "Print";
+            // 
+            // cOURSEToolStripMenuItem
+            // 
+            this.cOURSEToolStripMenuItem.Name = "cOURSEToolStripMenuItem";
+            this.cOURSEToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.cOURSEToolStripMenuItem.Text = "COURSE";
+            // 
+            // sCOREToolStripMenuItem
+            // 
+            this.sCOREToolStripMenuItem.Name = "sCOREToolStripMenuItem";
+            this.sCOREToolStripMenuItem.Size = new System.Drawing.Size(91, 26);
+            this.sCOREToolStripMenuItem.Text = "SCORE";
             // 
             // MainForm
             // 

@@ -22,5 +22,11 @@ namespace studentSolutions
             AddStudentForm addStdF = new AddStudentForm();
             addStdF.Show(this);
         }
+
+        private void studentsListToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            studentsListForm stdListF = new studentsListForm();
+            stdListF.Show(this);
+        }
     }
 }
