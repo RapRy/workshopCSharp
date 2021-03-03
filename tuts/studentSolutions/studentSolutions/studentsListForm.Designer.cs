@@ -67,6 +67,7 @@ namespace studentSolutions
             this.Controls.Add(this.buttonRefresh);
             this.Controls.Add(this.dataGridView1);
             this.Name = "studentsListForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "studentsListForm";
             this.Load += new System.EventHandler(this.studentsListForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -131,6 +131,7 @@ namespace studentSolutions
             this.editRemoveToolStripMenuItem.Name = "editRemoveToolStripMenuItem";
             this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(277, 26);
             this.editRemoveToolStripMenuItem.Text = "Edit / Remove";
+            this.editRemoveToolStripMenuItem.Click += new System.EventHandler(this.editRemoveToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 

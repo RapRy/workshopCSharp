@@ -28,5 +28,11 @@ namespace studentSolutions
             studentsListForm stdListF = new studentsListForm();
             stdListF.Show(this);
         }
+
+        private void editRemoveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdateDeleteStudentForm upDelStdF = new UpdateDeleteStudentForm();
+            upDelStdF.Show(this);
+        }
     }
 }

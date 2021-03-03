@@ -55,3 +55,4 @@ C:\xampp\htdocs\_ry\workshopCSharp\tuts\studentSolutions\studentSolutions\obj\De
 C:\xampp\htdocs\_ry\workshopCSharp\tuts\studentSolutions\studentSolutions\obj\Debug\studentSolutions.exe
 C:\xampp\htdocs\_ry\workshopCSharp\tuts\studentSolutions\studentSolutions\obj\Debug\studentSolutions.pdb
 C:\xampp\htdocs\_ry\workshopCSharp\tuts\studentSolutions\studentSolutions\obj\Debug\studentSolutions.studentsListForm.resources
+C:\xampp\htdocs\_ry\workshopCSharp\tuts\studentSolutions\studentSolutions\obj\Debug\studentSolutions.UpdateDeleteStudentForm.resources
